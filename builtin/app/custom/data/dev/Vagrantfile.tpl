@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "bento/ubuntu-14.04"
 
   # Setup some stuff
   config.vm.provision "shell", inline: $script

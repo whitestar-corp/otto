@@ -1,7 +1,6 @@
 .DS_Store
 *.dll
 *.exe
-bin/
 images/packer_cache
 pkg/
 scratch/
